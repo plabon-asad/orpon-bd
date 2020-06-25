@@ -36,10 +36,7 @@
 .btn-gradient {
   background-color: tomato;
   background-image: -webkit-linear-gradient(45deg, var(--warning), transparent);
-  background-image: linear-gradient(45deg, var(--warning), transparent);
-  background-image: -moz-linear-gradient(45deg, var(--warning), transparent);
-  background-image: -ms-linear-gradient(45deg, var(--warning), transparent);
-  background-image: -o-linear-gradient(45deg, var(--warning), transparent); }
+  background-image: linear-gradient(45deg, var(--warning), transparent); }
 
 /* Covid-19 Bar */
 .covid {
