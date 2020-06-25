@@ -1,0 +1,355 @@
+/* Public Class and Bootstrap reset*/
+/* Covid-19 Bar */
+/* Nav-bar */
+/* Slider */
+/* Service */
+/* CTA design */
+/* About Us */
+/* Question to me */
+/* Vertical line */
+/* Footer */
+/* Banks client */
+/* Our Teams */
+/* What make us differ */
+/* Back to top button */
+/* Contact Us */
+
+/* This theme is developed for OrponBD exam test purpose only by Plabon Asad */
+
+
+/* Public Class and Bootstrap reset*/
+.bg-deep-dark {
+  background-color: #1D1E29;
+  color: white;
+}
+
+.heading-wrap {
+  margin-bottom: 30px;
+
+  p {
+    font-size: 22px;
+    font-weight: lighter;
+  }
+}
+
+.para-style {
+  font-size: 20px;
+  font-weight: 200;
+  color: #333;
+}
+
+.slick-img-center {
+  margin: 0 auto;
+}
+
+.btn-gradient {
+  background-color: tomato;
+  background-image: -webkit-linear-gradient(45deg, var(--warning), transparent);
+  background-image: linear-gradient(45deg, var(--warning), transparent);
+  background-image: -moz-linear-gradient(45deg, var(--warning), transparent);
+  background-image: -ms-linear-gradient(45deg, var(--warning), transparent);
+  background-image: -o-linear-gradient(45deg, var(--warning), transparent);
+}
+
+/* Covid-19 Bar */
+.covid {
+  background-color: tomato;
+  background-image: linear-gradient(45deg, black, transparent);
+  background-image: -webkit-linear-gradient(45deg, black, transparent);
+  background-image: -moz-linear-gradient(45deg, black, transparent);
+  background-image: -ms-linear-gradient(45deg, black, transparent);
+  background-image: -o-linear-gradient(45deg, black, transparent);
+
+  .covid-container {
+    padding: 0 15px;
+
+    .covid-content {
+      color: white;
+      padding: 10px;
+    }
+  }
+}
+
+/* Nav-bar */
+.navbar-brand {
+  img {
+    width: 150px;
+  }
+}
+
+/* Slider */
+#slider-wrap {
+  background: #f2f5f7;
+}
+
+.carousel-caption {
+  //transform: translateY(-50%);
+  //bottom: 0;
+  //top: 50%;
+  h5 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  p {
+    font-size: 30px;
+    font-weight: lighter;
+    color: #333;
+  }
+}
+
+.carousel-indicators {
+  li {
+    background-color: #d14632;
+  }
+
+  .active {
+    background-color: #333;
+  }
+}
+
+/* Service */
+.service-wrap {
+  background-color: white;
+}
+
+.service-content {
+  .service-row {
+    .service-col {
+      img {
+        max-width: 100%;
+        border-radius: 1px;
+      }
+
+      h4 {
+        font-weight: 300;
+        margin-top: 15px;
+      }
+
+      p {
+        font-size: 20px;
+        font-weight: 200;
+        color: #333;
+        line-height: 28px;
+      }
+    }
+
+  }
+}
+
+/* CTA design */
+.cta-wrap {
+  background: #65e3ed;
+  background: -webkit-linear-gradient(to left, #65e3ed, #48f0cd);
+  background: linear-gradient(to left, #65e3ed, #48f0cd);
+
+  .cta-container {
+    .cta-row {
+      .cta-col {
+        .para {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+/* About Us */
+.about-us-wrap {
+  //background-color: white;
+}
+
+/* Question to me */
+.collapsible-link::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+/* Vertical line */
+.collapsible-link::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+.collapsible-link[aria-expanded='true']::after {
+  transform: rotate(90deg) translateX(-1px);
+}
+
+.collapsible-link[aria-expanded='true']::before {
+  transform: rotate(180deg);
+}
+
+.bg-water {
+  background-color: #f2f5f7;
+}
+
+.question-to-us-wrap {
+  .question-to-container {
+    .heading {
+      margin-bottom: 30px;
+
+      p {
+        font-size: 20px;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+/* Footer */
+.footer {
+  .list-inline-item {
+    a {
+      display: inline-block;
+      border: 1px solid #F89821;
+      width: 40px;
+      height: 40px;
+      vertical-align: middle;
+      text-align: center;
+      line-height: 40px;
+      //border-radius: 2px;
+      color: white;
+      background: #F89821;
+      border-bottom: 3px solid white;
+
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        //color: tomato;
+        font-size: 20px;
+        border-color: white;
+      }
+
+    }
+
+    a:hover i.fa-twitter {
+      color: #00aced
+    }
+
+    a:hover i.fa-facebook {
+      color: #3b5998
+    }
+
+    a:hover i.fa-instagram {
+      color: #517fa4
+    }
+
+    a:hover i.fa-pinterest {
+      color: #cb2027
+    }
+
+    a:hover i.fa-vimeo {
+      color: #aad450
+    }
+  }
+
+  .list-unstyled {
+    li {
+      a {
+        color: #F89821;
+        font-size: 14px;
+        font-weight: lighter;
+        text-decoration: none;
+
+        &:hover {
+          cursor: pointer;
+          color: #D14632;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+/* Banks client */
+.bank-wrap {
+  background-color: #1d1e29;
+  color: white;
+
+  .bank-container {
+  }
+}
+
+.client-image {
+  max-height: 5rem;
+  padding: 0.6rem;
+}
+
+/* Our Teams */
+#our-teams, .what-make-us-differ-wrap {
+  .slick-slide {
+    margin-right: 15px;
+  }
+}
+
+/* What make us differ */
+.what-make-us-differ-wrap {
+  .member {
+    p {
+      font-weight: lighter;
+    }
+  }
+}
+
+/* Back to top button */
+.back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+}
+
+/* Contact Us */
+.contact-us {
+  background-color: #1d1e29;
+  background-image: url(../images/map.png), linear-gradient(#33354e, #020202);
+  color: white;
+
+  .align-items-end img {
+    width: 40px;
+  }
+
+  input.form-control, textarea.form-control {
+    background-color: #727f8a54;
+    color: white;
+    border-radius: 0;
+    border-bottom: 3px solid white;
+  }
+
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: white;
+  }
+
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: white;
+  }
+
+  :-ms-input-placeholder { /* IE 10+ */
+    color: white;
+  }
+
+  :-moz-placeholder { /* Firefox 18- */
+    color: white;
+  }
+}
+
+
+
+
+
+
